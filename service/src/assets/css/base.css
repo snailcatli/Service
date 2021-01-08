@@ -1,0 +1,67 @@
+/* 
+ * 此文件包含屏幕适配全局样式
+*/
+
+/* 阿里字体图标设置 */
+.icon, .iconfont{
+  font-family: "iconfont"!important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 大屏幕：大于等于1600px*/
+@media (min-width: 1600px) {
+  .container {
+    width: 78%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+
+/* 中等屏幕：大于等于1280px*/
+@media (min-width: 1360px) and (max-width: 1599px) {
+  .container {
+    width: 78%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+
+/* 小屏幕 13寸电脑：大于等于1280px*/
+@media (min-width: 1280px) and (max-width: 1359px) {
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+ 
+/* 平板电脑横屏分辨率 */
+@media (min-width: 980px) and (max-width: 1279px){
+  .container {
+    width: 94%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+ 
+/* 平板电脑分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 94%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+ 
+/* 手机分辨率 */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
