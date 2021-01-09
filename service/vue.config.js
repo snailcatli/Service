@@ -67,6 +67,7 @@ module.exports = {
             .set('assets', resolve('src/assets'))
             .set('components', resolve('src/components'))
             .set('views', resolve('src/views'))
+            .set('img', resolve('static/img'))
         /**
         * 删除懒加载模块的 prefetch preload，降低带宽压力
         * https://cli.vuejs.org/zh/guide/html-and-static-assets.html#prefetch

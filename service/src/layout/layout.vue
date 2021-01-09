@@ -1,12 +1,13 @@
 <template>
-<div>
-  layout
-</div>
+  <div id="myLayout">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
+
 export default {
-  name: '',
+  name: 'Layout',
   props: {
   },
   data(){

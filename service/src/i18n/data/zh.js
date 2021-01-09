@@ -1,4 +1,5 @@
 const zh = {
-  lang: '中文',
+  lang: 'EN',
+  placeholder: '请输入关键字'
 }
 export default zh;
